@@ -34,3 +34,4 @@ Implement early stopping to prevent overfitting on the majority class. Regulariz
 Accuracy, Precision
 Accuracy= (True Positives + True Negatives) / Total Observations
 ​Precision = True Positives / (True Positive + False Positive)
+<hr />
