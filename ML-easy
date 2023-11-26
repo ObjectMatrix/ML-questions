@@ -1,5 +1,6 @@
-1. Resampling the Dataset:
+Question: Say you're building a binary classifiermfor an unbalanced dataset (where once class is much rarer than the others , say 1% and 99%, respectively). How do you handle the situation?
 
+Resampling the Dataset:
 Oversampling the Minority Class: Increase the number of samples in the minority class by duplicating them or synthesizing new samples (e.g., using SMOTE - Synthetic Minority Over-sampling Technique).
 Undersampling the Majority Class: Reduce the number of samples in the majority class. This can help balance the dataset but may lead to a loss of potentially valuable data.
 
