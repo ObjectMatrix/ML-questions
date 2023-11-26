@@ -1,4 +1,4 @@
-Question: Say you're building a binary classifiermfor an unbalanced dataset (where once class is much rarer than the others , say 1% and 99%, respectively). How do you handle the situation?
+## Question: Say you're building a binary classifiermfor an unbalanced dataset (where once class is much rarer than the others , say 1% and 99%, respectively). How do you handle the situation?  
 
 Resampling the Dataset:
 Oversampling the Minority Class: Increase the number of samples in the minority class by duplicating them or synthesizing new samples (e.g., using SMOTE - Synthetic Minority Over-sampling Technique).
@@ -32,5 +32,5 @@ Early Stopping and Regularization:
 Implement early stopping to prevent overfitting on the majority class. Regularization techniques can also help in this regard.
 
 Accuracy, Precision
-Accuracy= True Positives + True Negatives / Total Observations
-​Precision = True Positives / True Positive + False Positive
+Accuracy= (True Positives + True Negatives) / Total Observations
+​Precision = True Positives / (True Positive + False Positive)
